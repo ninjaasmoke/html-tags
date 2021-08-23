@@ -65,7 +65,7 @@ header {
 main {
     width: 100%;
 
-    margin-top: 60px;
+    margin: 60px 0;
     padding: 20px;
 }
 
@@ -122,6 +122,13 @@ label {
     display: block;
 }
 
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .highlight {
     margin-top: 8px;
     display: block;
@@ -131,7 +138,12 @@ label {
 }
 
 .space-header {
-    width: 100px;
+    width: 140px;
+}
+
+#footer-img {
+    margin: 100px 0;
+    width: 300px;
 }
 
 /* Responsive design */
