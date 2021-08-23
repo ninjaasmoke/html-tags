@@ -1,15 +1,675 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Basic, popular & less known html tags">
+    <meta name="author" content="ninjaasmoke">
+    <meta name="theme-color" content="#ffc107">
     <title>HTML Tags</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
 </head>
+
 <body>
-   <header>
+    <header>
         <h1>HTML tags</h1>
-   </header>
+    </header>
+    <main>
+        <!-- Popular Tags -->
+        <details open>
+            <summary>
+                Popular tags
+            </summary>
+            <div style="overflow-x:auto;">
+            <table>
+                <tr>
+                    <th>Tag</th>
+                    <th>Name</th>
+                    <th>Example</th>
+                    <th>Output</th>
+                    <th>Read more</th>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;p&gt;</pre>
+                        </span>
+                    </td>
+                    <td>Paragraph</td>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;p&gt;This is a paragraph&lt;/p&gt;</pre>
+                        </span>
+                    </td>
+                    <td>
+                        <p>
+                            This is a paragraph
+                        </p>
+                    </td>
+                    <td><a href="https://www.w3schools.com/tags/tag_p.asp" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;h1&gt;</pre>
+                        </span>
+                    </td>
+                    <td>Heading 1</td>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;h1&gt;This is a heading 1&lt;/h1&gt;</pre>
+                        </span>
+                    </td>
+                    <td>
+                        <h1>
+                            This is a heading 1
+                        </h1>
+                    </td>
+                    <td><a href="https://www.w3schools.com/tags/tag_hn.asp" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;h2&gt;</pre>
+                        </span>
+                    </td>
+                    <td>Heading 2</td>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;h2&gt;This is a heading 2&lt;/h2&gt;</pre>
+                        </span>
+                    </td>
+                    <td>
+                        <h2>
+                            This is a heading 2
+                        </h2>
+                    </td>
+                    <td><a href="https://www.w3schools.com/tags/tag_hn.asp" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;h3&gt;</pre>
+                        </span>
+                    </td>
+                    <td>Heading 3</td>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;h3&gt;This is a heading 3&lt;/h3&gt;</pre>
+                        </span>
+                    </td>
+                    <td>
+                        <h3>
+                            This is a heading 3
+                        </h3>
+                    </td>
+                    <td><a href="https://www.w3schools.com/tags/tag_hn.asp" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;h4&gt;</pre>
+                        </span>
+                    </td>
+                    <td>Heading 4</td>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;h4&gt;This is a heading 4&lt;/h4&gt;</pre>
+                        </span>
+                    </td>
+                    <td>
+                        <h4>
+                            This is a heading 4
+                        </h4>
+                    </td>
+                    <td><a href="https://www.w3schools.com/tags/tag_hn.asp" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;h5&gt;</pre>
+                        </span>
+                    </td>
+                    <td>Heading 5</td>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;h5&gt;This is a heading 5&lt;/h5&gt;</pre>
+                        </span>
+                    </td>
+                    <td>
+                        <h5>
+                            This is a heading 5
+                        </h5>
+                    </td>
+                    <td><a href="https://www.w3schools.com/tags/tag_hn.asp" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;h6&gt;</pre>
+                        </span>
+                    </td>
+                    <td>Heading 6</td>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;h6&gt;This is a heading 6&lt;/h6&gt;</pre>
+                        </span>
+                    </td>
+                    <td>
+                        <h6>
+                            This is a heading 6
+                        </h6>
+                    </td>
+                    <td><a href="https://www.w3schools.com/tags/tag_hn.asp" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;ul&gt;</pre>
+                        </span>
+                    </td>
+                    <td>Unordered list</td>
+                    <td>
+                        <span class="code">
+                            <pre>
+&lt;ul&gt;
+    &lt;li&gt;This is a list item&lt;/li&gt;
+    &lt;li&gt;This is a list item&lt;/li&gt;
+    &lt;li&gt;This is a list item&lt;/li&gt;
+&lt;/ul&gt;
+                    </pre>
+                        </span>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>This is a list item</li>
+                            <li>This is a list item</li>
+                            <li>This is a list item</li>
+                        </ul>
+                    </td>
+                    <td><a href="https://www.w3schools.com/tags/tag_ul.asp" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;ol&gt;</pre>
+                        </span>
+                    </td>
+                    <td>Ordered list</td>
+                    <td>
+                        <span class="code">
+                            <pre>
+&lt;ol&gt;
+    &lt;li&gt;This is a list item&lt;/li&gt;
+    &lt;li&gt;This is a list item&lt;/li&gt;
+    &lt;li&gt;This is a list item&lt;/li&gt;
+&lt;/ol&gt;
+                            </pre>
+                        </span>
+                    </td>
+                    <td>
+                        <ol>
+                            <li>This is a list item</li>
+                            <li>This is a list item</li>
+                            <li>This is a list item</li>
+                        </ol>
+                    </td>
+                    <td><a href="https://www.w3schools.com/tags/tag_ol.asp" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;li&gt;</pre>
+                        </span>
+                    </td>
+                    <td>List item</td>
+                    <td>
+                        <span class="code">
+                            <pre>
+&lt;ul&gt;
+    &lt;li&gt;This is a list item&lt;/li&gt;
+    &lt;li&gt;This is a list item&lt;/li&gt;
+    &lt;li&gt;This is a list item&lt;/li&gt;
+&lt;/ul&gt;
+                            </pre>
+                        </span>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>This is a list item</li>
+                            <li>This is a list item</li>
+                            <li>This is a list item</li>
+                        </ul>
+                    </td>
+                    <td><a href="https://www.w3schools.com/tags/tag_li.asp" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;dl&gt;</pre>
+                        </span>
+                    </td>
+                    <td>Definition list</td>
+                    <td>
+                        <span class="code">
+                            <pre>
+&lt;dl&gt;
+    &lt;dt&gt;This is a definition term&lt;/dt&gt;
+    &lt;dd&gt;This is a definition description&lt;/dd&gt;
+    &lt;dt&gt;This is a definition term&lt;/dt&gt;
+    &lt;dd&gt;This is a definition description&lt;/dd&gt;
+&lt;/dl&gt;
+                            </pre>
+                        </span>
+                    </td>
+                    <td>
+                        <dl>
+                            <dt>This is a definition term</dt>
+                            <dd>This is a definition description</dd>
+                            <dt>This is a definition term</dt>
+                            <dd>This is a definition description</dd>
+                        </dl>
+                    </td>
+                    <td><a href="https://www.w3schools.com/tags/tag_dl.asp" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;dt&gt;</pre>
+                        </span>
+                    </td>
+                    <td>Definition term</td>
+                    <td>
+                        <span class="code">
+                            <pre>
+&lt;dl&gt;
+    &lt;dt&gt;This is a definition term&lt;/dt&gt;
+    &lt;dd&gt;This is a definition description&lt;/dd&gt;
+    &lt;dt&gt;This is a definition term&lt;/dt&gt;
+    &lt;dd&gt;This is a definition description&lt;/dd&gt;
+&lt;/dl&gt;
+                            </pre>
+                        </span>
+                    </td>
+                    <td>
+                        <dl>
+                            <dt>This is a definition term</dt>
+                            <dd>This is a definition description</dd>
+                            <dt>This is a definition term</dt>
+                            <dd>This is a definition description</dd>
+                        </dl>
+                    </td>
+                    <td><a href="https://www.w3schools.com/tags/tag_dt.asp" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;dd&gt;</pre>
+                        </span>
+                    </td>
+                    <td>Definition description</td>
+                    <td>
+                        <span class="code">
+                            <pre>
+&lt;dl&gt;
+    &lt;dt&gt;This is a definition term&lt;/dt&gt;
+    &lt;dd&gt;This is a definition description&lt;/dd&gt;
+    &lt;dt&gt;This is a definition term&lt;/dt&gt;
+    &lt;dd&gt;This is a definition description&lt;/dd&gt;
+&lt;/dl&gt;
+                            </pre>
+                        </span>
+                    </td>
+                    <td>
+                        <dl>
+                                                        <dt>This is a definition term</dt>
+                            <dd>This is a definition description</dd>
+                            <dt>This is a definition term</dt>
+                            <dd>This is a definition description</dd>
+                        </dl>
+                    </td>
+                    <td><a href="https://www.w3schools.com/tags/tag_dd.asp" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;blockquote&gt;</pre>
+                        </span>
+                    </td>
+                    <td>Block quote</td>
+                    <td>
+                        <span class="code">
+                            <pre>
+&lt;blockquote&gt;
+    &lt;p&gt;This is a block quote&lt;/p&gt;
+&lt;/blockquote&gt;
+                            </pre>
+                        </span>
+                    </td>
+                    <td>
+                        <blockquote>
+                            <p>This is a block quote</p>
+                        </blockquote>
+                    </td>
+                    <td><a href="https://www.w3schools.com/tags/tag_blockquote.asp" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;cite&gt;</pre>
+                        </span>
+                    </td>
+                    <td>Citation</td>
+                    <td>
+                        <span class="code">
+                            <pre>
+&lt;blockquote&gt;
+    &lt;p&gt;This is a block quote&lt;/p&gt;
+    &lt;cite&gt;This is a citation&lt;/cite&gt;
+&lt;/blockquote&gt;
+                            </pre>
+                        </span>
+                    </td>
+                    <td>
+                        <blockquote>
+                            <p>This is a block quote</p>
+                            <cite>This is a citation</cite>
+                        </blockquote>
+                    </td>
+                    <td><a href="https://www.w3schools.com/tags/tag_cite.asp" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;table&gt;</pre>
+                        </span>
+                    </td>
+                    <td>Table</td>
+                    <td>
+                        <span class="code">
+                            <pre>
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;This is a table header&lt;/th&gt;
+        &lt;th&gt;This is a table header&lt;/th&gt;
+        &lt;th&gt;This is a table header&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;This is a table data&lt;/td&gt;
+        &lt;td&gt;This is a table data&lt;/td&gt;
+        &lt;td&gt;This is a table data&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;This is a table data&lt;/td&gt;
+        &lt;td&gt;This is a table data&lt;/td&gt;
+        &lt;td&gt;This is a table data&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+                            </pre>
+                        </span>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <th>This is a table header</th>
+                                <th>This is a table header</th>
+                                <th>This is a table header</th>
+                            </tr>
+                            <tr>
+                                <td>This is a table data</td>
+                                <td>This is a table data</td>
+                                <td>This is a table data</td>
+                            </tr>
+                            <tr>
+                                <td>This is a table data</td>
+                                <td>This is a table data</td>
+                                <td>This is a table data</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td><a href="https://www.w3schools.com/tags/tag_table.asp" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;caption&gt;</pre>
+                        </span>
+                    </td>
+                    <td>Table caption</td>
+                    <td>
+                        <span class="code">
+                            <pre>
+&lt;table&gt;
+    &lt;caption&gt;This is a table caption&lt;/caption&gt;
+    &lt;tr&gt;
+        &lt;th&gt;This is a table header&lt;/th&gt;
+        &lt;th&gt;This is a table header&lt;/th&gt;
+        &lt;th&gt;This is a table header&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;This is a table data&lt;/td&gt;
+        &lt;td&gt;This is a table data&lt;/td&gt;
+        &lt;td&gt;This is a table data&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;This is a table data&lt;/td&gt;
+        &lt;td&gt;This is a table data&lt;/td&gt;
+        &lt;td&gt;This is a table data&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+                            </pre>
+                        </span>
+                    </td>
+                    <td>
+                        <table>
+                            <caption>This is a table caption</caption>
+                            <tr>
+                                <th>This is a table header</th>
+                                <th>This is a table header</th>
+                                <th>This is a table header</th>
+                            </tr>
+                            <tr>
+                                <td>This is a table data</td>
+                                <td>This is a table data</td>
+                                <td>This is a table data</td>
+                            </tr>
+                            <tr>
+                                <td>This is a table data</td>
+                                <td>This is a table data</td>
+                                <td>This is a table data</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td><a href="https://www.w3schools.com/tags/tag_caption.asp" target="_blank">Visit</a></td>
+                </tr>
+                                <tr>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;thead&gt;</pre>
+                        </span>
+                    </td>
+                    <td>Table header</td>
+                    <td>
+                        <span class="code">
+                            <pre>
+&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;This is a table header&lt;/th&gt;
+            &lt;th&gt;This is a table header&lt;/th&gt;
+            &lt;th&gt;This is a table header&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;This is a table data&lt;/td&gt;
+            &lt;td&gt;This is a table data&lt;/td&gt;
+            &lt;td&gt;This is a table data&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;This is a table data&lt;/td&gt;
+            &lt;td&gt;This is a table data&lt;/td&gt;
+            &lt;td&gt;This is a table data&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+                            </pre>
+                        </span>
+                    </td>
+                    <td>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>This is a table header</th>
+                                    <th>This is a table header</th>
+                                    <th>This is a table header</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>This is a table data</td>
+                                    <td>This is a table data</td>
+                                    <td>This is a table data</td>
+                                </tr>
+                                <tr>
+                                    <td>This is a table data</td>
+                                    <td>This is a table data</td>
+                                    <td>This is a table data</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td><a href="https://www.w3schools.com/tags/tag_thead.asp" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;tfoot&gt;</pre>
+                        </span>
+                    </td>
+                    <td>Table footer</td>
+                    <td>
+                        <span class="code">
+                            <pre>
+&lt;table&gt;
+    &lt;tfoot&gt;
+        &lt;tr&gt;
+            &lt;th&gt;This is a table header&lt;/th&gt;
+            &lt;th&gt;This is a table header&lt;/th&gt;
+            &lt;th&gt;This is a table header&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/tfoot&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;This is a table data&lt;/td&gt;
+            &lt;td&gt;This is a table data&lt;/td&gt;
+            &lt;td&gt;This is a table data&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;This is a table data&lt;/td&gt;
+            &lt;td&gt;This is a table data&lt;/td&gt;
+            &lt;td&gt;This is a table data&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+                            </pre>
+                        </span>
+                    </td>
+                    <td>
+                        <table>
+                            <tfoot>
+                                <tr>
+                                    <th>This is a table header</th>
+                                    <th>This is a table header</th>
+                                    <th>This is a table header</th>
+                                </tr>
+                            </tfoot>
+                            <tbody>
+                                <tr>
+                                    <td>This is a table data</td>
+                                    <td>This is a table data</td>
+                                                                        <td>This is a table data</td>
+                                </tr>
+                                <tr>
+                                    <td>This is a table data</td>
+                                    <td>This is a table data</td>
+                                    <td>This is a table data</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td><a href="https://www.w3schools.com/tags/tag_tfoot.asp" target="_blank">Visit</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <span class="code">
+                            <pre>&lt;tbody&gt;</pre>
+                        </span>
+                    </td>
+                    <td>Table body</td>
+                    <td>
+                        <span class="code">
+                            <pre>
+&lt;table&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;This is a table header&lt;/th&gt;
+            &lt;th&gt;This is a table header&lt;/th&gt;
+            &lt;th&gt;This is a table header&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;This is a table data&lt;/td&gt;
+            &lt;td&gt;This is a table data&lt;/td&gt;
+            &lt;td&gt;This is a table data&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;This is a table data&lt;/td&gt;
+            &lt;td&gt;This is a table data&lt;/td&gt;
+            &lt;td&gt;This is a table data&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+                            </pre>
+                        </span>
+                    </td>
+                    <td>
+                        <table>
+                            <thead>
+                                <tr>
+                                                                        <th>This is a table header</th>
+                                    <th>This is a table header</th>
+                                    <th>This is a table header</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>This is a table data</td>
+                                    <td>This is a table data</td>
+                                    <td>This is a table data</td>
+                                </tr>
+                                <tr>
+                                    <td>This is a table data</td>
+                                    <td>This is a table data</td>
+                                    <td>This is a table data</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td><a href="https://www.w3schools.com/tags/tag_tbody.asp" target="_blank">Visit</a></td>
+                </tr>
+            </table>
+        </div>
+        </details>
+
+    </main>
 </body>
+
 </html>
